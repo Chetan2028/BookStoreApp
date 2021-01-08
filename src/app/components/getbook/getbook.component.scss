@@ -1,0 +1,84 @@
+.main {
+    display: inline-grid;
+    padding: 10px;
+  }
+  .grid-item {
+    max-width: 275px;
+    width: auto;
+    display: grid;
+    margin-top:20px
+  }
+  mat-card-title {
+    white-space: nowrap;
+    width: 220px;
+    height: 20%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  img {
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 30%;
+  }
+  .mat-card-image:first-child {
+    margin-top: 0;
+  }
+  .cover {
+    background-color: rgba(128, 128, 128, 0.534);
+  }
+  .mat-card {
+    padding-top:10px;
+  }
+  .mat-card-content {
+    background-color: white;
+  }
+  .toolbar {
+    flex: 1 1 auto;
+  }
+  @media screen and (min-width: 992px) {
+    .mainbody {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 5%;
+    }
+  }
+  .title {
+    padding-top: 30px;
+    font-size: x-large;
+  }
+  .card {
+    width: 240px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+  }
+  .but {
+    background-color: #8f2b2f;
+    width: 100px;
+    height: 35px;
+  }
+  .butt {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px !important;
+  }
+  .butn{
+    background-color:#3371B5;
+    width: -webkit-fill-available;
+    margin: 0px 5px 3px 5px;
+  }
+  .detail{
+    height: fit-content;
+  }
+  
+  .mat-card-subtitle {
+      line-height: 50px;
+  }

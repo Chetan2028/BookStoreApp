@@ -1,0 +1,41 @@
+.card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 120px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.login {
+    color : #A03037;
+}
+
+.bottom { 
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    line-height: 30px;
+    color : #A03037;
+    text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logButton {
+    background-color: #A03037;
+    color:white;
+}
+
+.mat-icon-button ::ng-deep .mat-button-focus-overlay {
+    display: none;
+}

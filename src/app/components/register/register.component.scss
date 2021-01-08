@@ -1,0 +1,39 @@
+.card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signIn {
+    color:#A03037;
+}
+
+button {
+    background-color: #A03037;
+    color: white;
+}
+a {
+    text-decoration: none;
+    cursor : pointer;
+    font-weight: bolder;
+}
+mat-card-subtitle {
+    color: #A03037;
+    font-size: 20px;
+}
